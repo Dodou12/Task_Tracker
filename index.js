@@ -1,4 +1,4 @@
-const { addTask, updateTask, deleteTask, readTask, changeStatusTask, searchTaskDone, searchTaskInExecussion, searchTaskTodo } = require("./Handler");
+const { addTask, updateTask, deleteTask, readTask, changeStatusTask, searchTaskDone, searchTaskInExecussion, searchTaskTodo } = require("./handler");
 const readline = require("readline/promises");
 
 const rl = readline.createInterface({

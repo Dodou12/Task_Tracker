@@ -1,6 +1,5 @@
 const readline = require("readline/promises");
 const fs = require("fs/promises");
-const { log } = require("console");
 const FICHIER = "Task_Tracker/tasks.json";
 
 var id;
